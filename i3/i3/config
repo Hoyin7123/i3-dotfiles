@@ -194,10 +194,10 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id nm-applet
 
 # Feh set bg
-exec --no-startup-id feh --bg-fill ~/Pictures/background/bg3.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/background/bg4.jpg
 
 # Autostart picom(compton fork)
-exec_always --no-startup-id picom --experimental-backends
+exec_always --no-startup-id picom --experimental-backend
 
 # GAPS
 gaps inner 12
